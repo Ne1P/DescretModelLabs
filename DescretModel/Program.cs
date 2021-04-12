@@ -55,11 +55,9 @@ namespace DescretModel
                         KommviagerAlgoritm.kommviagerAlgoritm();
                         break;
                     case 4:
-                        Console.WriteLine("4) Потокові алгоритми\n");
-                        break;
-                    case 5:
-                        Console.WriteLine("5) ////\n");
-                        break;
+                        Console.WriteLine("4) Потокові алгоритми. Алгоритм Форда-Фалкерсона\n");
+                        FordaFalckersonaAlgorithm.FordaFalckersonaMain();
+                      break;
                     default:
                         Console.WriteLine("Введено некоректне значення, повторіть спробу!\n");
                         chengLabs();

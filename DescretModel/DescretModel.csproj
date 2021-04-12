@@ -43,9 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Graph.cs" />
-    <Compile Include="GraphEdge.cs" />
-    <Compile Include="GraphVertex.cs" />
+    <Compile Include="FordaFalckersonaAlgorithm.cs" />
     <Compile Include="KommviagerAlgoritm.cs" />
     <Compile Include="KruskalAlgoritm.cs" />
     <Compile Include="PostmenAlgoritm.cs" />
